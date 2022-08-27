@@ -1,0 +1,34 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(185, 185, 186);
+  font-size: 1.8rem;
+}
+.logo{
+  width: 30px;
+  margin-left: 5px;
+}
+.name-container{
+  display: flex;
+  align-items: center;
+}
+.bank-name{
+  margin-left: 20px;
+  font-weight: 700;
+}
+.header-menu{
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+}
+.header-menu label {
+  margin-right: 20px;
+}
+.header-menu label:hover{
+  cursor: pointer;
+  color: antiquewhite;
+}
